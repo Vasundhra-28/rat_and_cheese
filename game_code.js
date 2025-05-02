@@ -39,6 +39,9 @@ class Example extends Phaser.Scene
         // Display cheese count on the screen
         this.text = this.add.text(10, 10, 'Cheese Collected: 0', { font: '28px Courier', fill: '#ffffff' });
 
+        // Display your name on screen
+        this.add.text(10, 570, 'Created by Vasundhara', { font: '20px Courier', fill: '#ffffff' });
+
         // Setup controls
         this.cursors = this.input.keyboard.createCursorKeys();
 
